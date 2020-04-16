@@ -1,11 +1,16 @@
 {
   "name": "react-native-fast-chat",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.5",
+  "description": "React native fast chat",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.js\""
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batuhansahan/react-native-fast-chat.git"
+  },
+  "homepage": "https://github.com/batuhansahan/react-native-fast-chat.git#readme",
   "keywords": [
     "react-native",
     "react-chat",
