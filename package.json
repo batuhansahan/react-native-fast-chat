@@ -1,14 +1,71 @@
 {
   "name": "react-native-fast-chat",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.js\""
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "keywords": [
+    "react-native",
+    "react-chat",
+    "react-fast-chat",
+    "react-native",
+    "react-native-fast-chat",
+    "react-native-chat",
+    "react-native-gifted-chat",
+    "react native chat",
+    "react chat",
+    "react native fast chat",
+    "react native gifted chat",
+    "messenger",
+    "message",
+    "chat"
+  ],
+  "bugs": {
+    "url": "https://github.com/batuhansahan/react-native-fast-chat/issues"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.9.0",
+    "lodash": "^4.17.15",
+    "lottie-react-native": "^3.3.2",
+    "prop-types": "15.7.2",
+    "react-native-parsed-text": "0.0.21",
+    "react-native-vector-icons": "6.6.0",
+    "react-native-fast-image": "8.1.5"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4",
+    "react": "^16.12.0",
+    "react-native": "0.61.5",
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "0.0.7",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.12.0"
+  },
+  "peerDependencies": {
+    "moment": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "author": {
+    "name": "Batuhan Şahan",
+    "email": "imbatuhansahan@gmail.com",
+    "url": "https://batuhansahan.github.io"
+  },
+  "license": "MIT"
 }
